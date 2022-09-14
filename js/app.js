@@ -2,6 +2,7 @@ $(document).ready(function() {
  var $searchField = $("#search"), 
      $submitButton = $("#submit"),
      $photosDiv = $('#photos');
+  
   $searchField.on("focus", function() {
      $photosDiv.html("");
    }); //end on
